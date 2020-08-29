@@ -1,5 +1,6 @@
 # semanticUI
-Training project
+Training project.
+
 Тест №1
 
 1. Перейти на страницу https://semantic-ui.com/collections/table.html
