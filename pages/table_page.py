@@ -23,4 +23,3 @@ class TablePage(BaseWebDriver):
 
     def check_jamie_sign(self):
         self.is_element_present(*TablePageLocators.JAMIE_WARNING)
-        
