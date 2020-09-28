@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class TablePageLocators:
+    LINK_TABLE = "https://semantic-ui.com/collections/table.html"
     JIMMY_APPROVED = (By.XPATH, "//tr[@class='positive']//td[contains(text(),'Approved')]")
     NO_NAME_SPECIFIED_STATUS = (By.XPATH,
                                 "//h4[text()='Positive / Negative']/following-sibling::table//td[text()='No Name Specified']/following-sibling::td[text()='Unknown']")
@@ -14,6 +15,7 @@ class TablePageLocators:
 
 
 class DropdownLocators:
+    LINK_DROPDOWN = "https://semantic-ui.com/modules/dropdown.html"
     SELECTION_1 = (By.CSS_SELECTOR, "div[class='ui selection dropdown active visible'] div[data-value='0']")
     SELECTION_2 = (By.CSS_SELECTOR, "div[class='menu transition visible'] div[data-value='1']")
     SELECTION_1_VISIBLE = (By.XPATH, "//div[@class='ui selection dropdown']/div[text()='Female']")
@@ -21,6 +23,7 @@ class DropdownLocators:
 
 
 class CheckboxLocators:
+    LINK_CHECKBOX = "https://semantic-ui.com/modules/checkbox.html"
     STANDARD_CHECKBOX = (By.XPATH, "//label[text()='Make my profile visible']/preceding-sibling::input")
     RADIO_ONCE_ADAY = (By.CSS_SELECTOR, "div[class='inline fields'] > .field:nth-child(4) input")
     SLIDER_ACCEPT = (By.CSS_SELECTOR, "div[class='ui slider checkbox'] input[name='newsletter']")
